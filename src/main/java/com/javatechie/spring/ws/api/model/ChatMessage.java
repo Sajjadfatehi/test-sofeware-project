@@ -33,4 +33,12 @@ public class ChatMessage {
 		this.type = type;
 	}
 
+	@Override
+	public String toString() {
+		return "ChatMessage{" +
+				"content='" + content + '\'' +
+				", sender='" + sender + '\'' +
+				", type=" + type +
+				'}';
+	}
 }
